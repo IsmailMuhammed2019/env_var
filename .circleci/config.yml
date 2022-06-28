@@ -14,5 +14,4 @@ jobs:
       - run:
           name: "echo an env var that is part of our project"
           command: |
-            ENV_VAR = "Ismail Muhammed"
             echo $ENV_VAR
